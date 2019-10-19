@@ -114,8 +114,8 @@ page = ["HTML"]
 home = ["HTML", "SectionsAtom", "SectionsRSS"]
 section = ["HTML"]
 # Not working below v0.57.0, see: https://github.com/gohugoio/hugo/issues/4528
-taxonomyTerm = ["HTML"]
-taxonomy = ["HTML"]
+#taxonomyTerm = ["HTML"]
+#taxonomy = ["HTML"]
 
 [author]
 name = "Eugene"

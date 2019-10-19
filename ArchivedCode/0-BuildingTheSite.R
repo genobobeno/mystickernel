@@ -6,10 +6,11 @@ blogdown::install_hugo()
 
 blogdown::new_site(theme = "reuixiy/hugo-theme-meme")
 
+blogdown::serve_site()
 
 ### Some TOML Code To Keep
 # [languages.zh-cn]
-# languageName = "ä¸?æ–‡"
+# languageName = "ä¸???æ–‡"
 # contentDir = "content/zh"
 # weight = 2
 # languageCode = "zh-CN"
@@ -53,7 +54,7 @@ blogdown::new_site(theme = "reuixiy/hugo-theme-meme")
 # identifier = "categories"
 # [[languages.zh-cn.menu.main]]
 # url = "/zh-cn/tags/"
-# name = "æ ‡ç?¾"
+# name = "æ ‡ç???¾"
 # weight = 6
 # pre = "internal"
 # post = "tags"
