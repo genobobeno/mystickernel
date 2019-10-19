@@ -53,8 +53,8 @@ HUGO_VERSION = "0.58.3"
 [context.branch-deploy]
 command = "hugo"
 
-[context.branch-deploy.environment]
-HUGO_VERSION = "ç"
+#[context.branch-deploy.environment]
+#HUGO_VERSION = "ç"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
