@@ -30,7 +30,7 @@ paginate = 3
 
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "hugo"
 
 [context.production.environment]
 HUGO_VERSION = "0.58.3"
